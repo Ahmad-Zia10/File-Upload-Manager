@@ -48,8 +48,8 @@ flowchart TD
     DF --> ST
     ST --> SEL["selectors<br/>progress · tallies (derived)"]
     SEL --> V["FileRow re-renders<br/>one row per subscription"]
-    DC -.->|slot freed| P
-    DF -.->|slot freed| P
+    PR -.->|next chunk| S
+    ST -.->|slot freed → re-pump| P
     T -.->|store handles| REG[("upload registry<br/>File + AbortController")]
     S -.->|reads File / signal| REG
 ```
