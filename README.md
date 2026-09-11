@@ -8,7 +8,7 @@ A Google-Drive-style uploader: drop a batch of files, watch a few upload in para
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38BDF8?logo=tailwindcss&logoColor=white)
 ![Vitest](https://img.shields.io/badge/tested_with-Vitest-6E9F18?logo=vitest&logoColor=white)
 
-🔗 **Live demo:** `https://<your-project>.vercel.app`  ·  Replace with your deploy link (or remove this line).
+🔗 **[Live Demo](https://file-upload-manager-beta.vercel.app/)** &nbsp;·&nbsp;
 
 ---
 
